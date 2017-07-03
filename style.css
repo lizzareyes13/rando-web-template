@@ -20,40 +20,64 @@ body{
 }
 
 .top-nav-bar{
+  position: relative;
   margin: 0 auto;
   margin-top: -1.9%;
   margin-left: -10px;
   width: 101.75%;
-  height: 1rem;
-  background-color: #ff89a7;
+  height: 3rem;
+  background-color: #24292e;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
-
-.nav-bar2{
-  margin: 0 auto;
-  margin-top: 17.9%;
-  margin-left: -10px;
-  width: 101.75%;
-  height: 2rem;
-  background-color: #ff89a7;
+#user-icon-nav{
+  position: relative;
+  filter: invert();
+  width: 3%;
+  margin-left: 3rem;
+  margin-top: 6px;
 }
 
-#banner-img{
+.search-box{
+  position: relative;
+  margin-left: 5rem;
+  margin-top: -43px;
+}
+
+.form-control{
   position: absolute;
-  clip:rect(20rem,1243px,700px,0px);
-  width: 100.8%;
-  height: 90%;
-  margin-top: -25.33%;
-  margin-left: -.8%;
+  margin-top: 1.2%;
+  margin-left: 1rem;
+  height: 1.25rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
-/*columns*/
-.box-column{
-  margin: 0 auto;
-  margin-top: .5%;
-  margin-bottom: 15rem;
-  background-color: white;
-  width: 45%;
-  height: 39.4rem;
+.btn-search{
+  position: relative;
+  margin-left: 15.9%;
+  margin-top: .88rem;
+  height: 1.7rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+
+.avatar{
+  margin-left: 4%;
+  margin-top: 2%;
+}
+#avatar-img{
+  width: 15rem;
+  border-radius: .5rem;
+}
+
+.user-info{
+  margin-left: 4%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info p{
+  margin-top: -2%;
 }
