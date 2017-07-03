@@ -92,3 +92,15 @@ body{
   height: .5px;
   background-color: #808080;
 }
+
+.nav-panel{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 30rem;
+  margin-top: -3.8rem;
+  color: white;
+
+}
+.nav-panel h4{
+  padding: 1rem;
+}
