@@ -96,16 +96,18 @@ body{
 .nav-panel{
   display: flex;
   flex-direction: row-reverse;
-  margin-right: 30rem;
-  margin-top: -3.8rem;
+  margin-right: 34rem;
+  margin-top: -3.4rem;
   color: white;
 
 }
 .nav-panel h4{
-  padding: 1rem;
+  padding: .65rem;
 }
 
 .top-content-hr{
+  display: flex;
+  flex-direction: column-reverse;
   margin: auto;
   background-color: #808080;
   width: 65%;
@@ -113,6 +115,19 @@ body{
   margin-top: -26rem;
   margin-left: 20rem;
 }
+
+.top-content{
+  display: flex;
+  flex-basis: auto;
+  margin-left: 4rem;
+  margin-right: 100rem;
+  margin-top: -3.8rem;
+}
+
+.top-content p{
+  margin-right: 4rem;
+}
+
 .middle-content{
   margin: 0 auto;
   margin-left: 20rem;
