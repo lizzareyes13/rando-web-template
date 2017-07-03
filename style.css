@@ -3,11 +3,13 @@ body{
 }
 
 .container{
+  overflow: hidden;
+  scroll-behavior: smooth;
   background-color: #e6ecf0;
   margin: 0 auto;
   margin-top: 1%;
   width: 98%;
-  height: 35.5rem;
+  height: 55.5rem;
   border: 3px;
   border-radius: 1rem;
   padding: 10px;
@@ -49,5 +51,9 @@ body{
 /*columns*/
 .box-column{
   margin: 0 auto;
-  background-color:
+  margin-top: .5%;
+  margin-bottom: 15rem;
+  background-color: white;
+  width: 45%;
+  height: 39.4rem;
 }
