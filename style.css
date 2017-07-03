@@ -16,3 +16,14 @@ body{
 .inside-components{
     margin-top: 1%;
 }
+
+.nav-bar{
+  margin: 0 auto;
+  margin-top: -1.9%;
+  margin-left: -10px;
+  width: 101.75%;
+  height: 2rem;
+  background-color: #ff89a7;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
