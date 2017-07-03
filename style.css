@@ -79,5 +79,16 @@ body{
 }
 
 .user-info p{
-  margin-top: -2%;
+  margin-top: 2px;
+}
+
+.user-info2 p{
+  margin-top: 2px;
+}
+
+.custom-hr{
+  margin: 0;
+  width: 15%;
+  height: .5px;
+  background-color: #808080;
 }
