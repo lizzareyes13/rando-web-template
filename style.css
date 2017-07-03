@@ -3,11 +3,11 @@ body{
 }
 
 .container{
-  background-color: #ffffff;
+  background-color: #e6ecf0;
   margin: 0 auto;
-  margin-top: 4%;
-  width: 92%;
-  height: 500px;
+  margin-top: 1%;
+  width: 98%;
+  height: 35.5rem;
   border: 3px;
   border-radius: 1rem;
   padding: 10px;
@@ -17,13 +17,37 @@ body{
     margin-top: 1%;
 }
 
-.nav-bar{
+.top-nav-bar{
   margin: 0 auto;
   margin-top: -1.9%;
   margin-left: -10px;
   width: 101.75%;
-  height: 2rem;
+  height: 1rem;
   background-color: #ff89a7;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+}
+
+.nav-bar2{
+  margin: 0 auto;
+  margin-top: 17.9%;
+  margin-left: -10px;
+  width: 101.75%;
+  height: 2rem;
+  background-color: #ff89a7;
+}
+
+#banner-img{
+  position: absolute;
+  clip:rect(20rem,1243px,700px,0px);
+  width: 100.8%;
+  height: 90%;
+  margin-top: -25.33%;
+  margin-left: -.8%;
+}
+
+/*columns*/
+.box-column{
+  margin: 0 auto;
+  background-color:
 }
