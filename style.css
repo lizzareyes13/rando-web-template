@@ -132,7 +132,32 @@ body{
   margin: 0 auto;
   margin-left: 20rem;
   margin-top: 2rem;
-  background-color: pink;
+  /*background-color: pink;*/
   width: 65%;
   height: 30rem;
+}
+
+#box1{
+  margin: 0;
+  margin-top: 1rem;
+  background-color: pink;
+  width: 40%;
+  height: 5rem;
+  padding: 1rem;
+}
+#box2{
+  margin: 0;
+  margin-top: 1rem;
+  background-color: pink;
+  width: 40%;
+  height: 5rem;
+  padding: 1rem;
+}
+#box3{
+  margin: 0;
+  margin-top: 1rem;
+  background-color: pink;
+  width: 40%;
+  height: 5rem;
+  padding: 1rem;
 }
