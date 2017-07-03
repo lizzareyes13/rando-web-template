@@ -104,3 +104,20 @@ body{
 .nav-panel h4{
   padding: 1rem;
 }
+
+.top-content-hr{
+  margin: auto;
+  background-color: #808080;
+  width: 65%;
+  height: .5px;
+  margin-top: -24rem;
+  margin-left: 20rem;
+}
+.middle-content{
+  margin: 0 auto;
+  margin-left: 20rem;
+  margin-top: 2rem;
+  background-color: pink;
+  width: 65%;
+  height: 30rem;
+}
